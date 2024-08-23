@@ -1,0 +1,5 @@
+from tensorflow.keras.utils import load_img, img_to_array
+
+a=load_img("/content/8RIW.png",target_size=(224, 224))
+tensor=img_to_array(a)
+print(tensor)
